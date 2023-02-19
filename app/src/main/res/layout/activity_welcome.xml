@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".WelcomeActivity">
+
+  <TextView
+      android:id="@+id/welcomeMessage"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:fontFamily="@font/font1"
+      android:gravity="center|center_horizontal"
+      android:paddingRight="5sp"
+      android:text="WELCOME TO NIRAV AND ZARANA'S THE WIZRDING QUIZ"
+      android:textColor="@color/welcomeText"
+      android:textSize="48sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.526"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.499" />
+
+  <ImageView
+      android:id="@+id/imageView"
+      android:layout_width="150dp"
+      android:layout_height="150dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.489"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.195"
+      app:srcCompat="@drawable/uottawa_ver_white" />
+
+  <Button
+      android:id="@+id/enterButton"
+      android:layout_width="250dp"
+      android:layout_height="wrap_content"
+      android:height="70dp"
+      android:backgroundTint="@color/buttonBackground"
+      android:fontFamily="@font/hogw"
+      android:text="ENTER"
+      android:textSize="34sp"
+      android:textStyle="bold"
+      app:cornerRadius="10dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="@+id/welcomeMessage"
+      app:layout_constraintHorizontal_bias="0.487"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.747" />
+</androidx.constraintlayout.widget.ConstraintLayout>
