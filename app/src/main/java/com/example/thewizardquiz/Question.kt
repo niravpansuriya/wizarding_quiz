@@ -85,6 +85,76 @@ fun initQuestions(){
                 "2002"),
             2
         ))
+
+        questions.add(Question(
+            "What did Dumbledore leave to Ron in his will? Please enter a letter?",
+            arrayOf("The Tales of Beedle the Bard","The Deluminator",
+                "The Pensieve"),
+            2
+        ))
+
+        questions.add(Question(
+            "Who was the master of the Elder Wand prior to Harry? Please enter a letter.",
+            arrayOf("Albus Dumbledore","Severus Snape",
+                "Minerva McGonagall"),
+            1
+        ))
+
+        questions.add(Question(
+            "What was the name of Mr. Crouch's house elf?",
+            arrayOf("Winky","Blinky",
+                "Kreacher"),
+            1
+        ))
+
+        questions.add(Question(
+            "What spell did Harry use to kill Lord Voldemort?",
+            arrayOf("Expecto Patronum","Expelliarmus",
+                "Avada Kedavra"),
+            2
+        ))
+
+        questions.add(Question(
+            "Which Patronus belongs to Luna Lovegood?",
+            arrayOf("Doe","Dog",
+                "Rabbit"),
+            3
+        ))
+
+        questions.add(Question(
+            "Which element is associated with Hufflepuff?",
+            arrayOf("Fire","Air",
+                "Earth"),
+            3
+        ))
+
+        questions.add(Question(
+            "What magical talent does Harry share with Voldemort?",
+            arrayOf("Being an Animagus","Being an Auror",
+                "Being a Parselmouth"),
+            3
+        ))
+
+        questions.add(Question(
+            "The tears of which animal are the only known antidote to basilisk venom?",
+            arrayOf("Phoenix","Billywig",
+                "Boggart"),
+            1
+        ))
+
+        questions.add(Question(
+            "What was the name of the Black family’s house elf?",
+            arrayOf("Dobby","Kreacher",
+                "Winky"),
+            2
+        ))
+
+        questions.add(Question(
+            "‘Wit beyond measure is man’s greatest treasure’ is the motto of which house?",
+            arrayOf("Ravenclaw","Hufflepuff",
+                "Gryffindor"),
+            1
+        ))
     }
 }
 

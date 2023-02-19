@@ -76,8 +76,8 @@ class quiz : AppCompatActivity() {
     // set up the random background
     private fun setRandomBackground(){
         var colors:Array<String> = arrayOf("#dec78a","#fadaaa","#c29d70","#ecc57d");
-        var color:String = colors[Random.nextInt(0,4)];
-        background.setBackgroundColor(Color.parseColor(color));
+//        var color:String = colors[Random.nextInt(0,4)];
+        background.setBackgroundColor(Color.parseColor(colors[questionCount]));
     }
 
     // handle next button click
